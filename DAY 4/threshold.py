@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('novitech.png')
+img = cv2.imread('sample.jpg')
 
 grayImg = cv2.cvColor(img, cv2.COLOR_BGR2GRAY)
 

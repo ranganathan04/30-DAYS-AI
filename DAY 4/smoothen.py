@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread('novitech.png')
+img = cv2.imread('sample.jpg')
 
 gaussianImg = cv2.GaussianBlur(img, (41, 41), 50)
 gaussianImg1 = cv2.GaussianBlur(img, (21, 42), 0)
