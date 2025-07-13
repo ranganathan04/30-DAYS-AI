@@ -1,0 +1,43 @@
+OBJECT DETECTION AND TRACKING BASED ON COLOR :
+-------------------------------------------------------------------------------------------
+
+INSTALLING LIBRARIES :
+
+>>> PIP INSTALL PYAUTOGUI
+----------------------------------------------------------------------------------------------
+
+TO FIND THE COLOR :
+
+	HSV AND HSL ARE ALTERNATIVE REPRESENTATION OF THE RGB COLOR MODEL DESUGNED IN 1970.
+
+	EFFICENT THEN THE RGB.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1) BGR TO HSV 
+
+2) MINIMUM ENCLOSING CIRCLE
+
+3) MOMENTS TO FIND CENTER OF THE AREA
+
+4) DRAWING CIRCLE 
+
+CV2.CIRCLE(SRC,9X,Y0,INT(RADIOUS),COLOUR,THICKNESS)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+STEPS :
+
+READING FRAME FROM CAMERA
+
+PRE-PROCRSSING IMG
+
+FINDING CONTOURS
+
+DRAWING MINIMUM ENCLOSING CIRCLE
+
+FINDING CENER OF COUNTORS AREA
+
+DRAWING CIRCLE & CENTRE
+
+DIRECTION BASED ON RADIOUS & POSITION
+

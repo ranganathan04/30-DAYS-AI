@@ -1,0 +1,1 @@
+echo "// Your trained Keras model goes here" > genre_model.h5
